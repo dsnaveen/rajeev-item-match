@@ -9,7 +9,7 @@ from fuzzywuzzy import process
 import streamlit as st
 import xlsxwriter
 from io import BytesIO
-from item_match_utils import *
+from utils import *
 
 st.header('Item Matching')
 
